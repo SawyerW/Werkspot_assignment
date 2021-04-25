@@ -1,0 +1,12 @@
+dbt-postgres:
+  target: local
+  outputs:
+      local:
+        type: postgres
+        threads: 1
+        port: 5432
+        user: "postgres"
+        password: "Strong123!"
+        dbname: "postgres"
+        schema: dbt_yue
+        host: localhost

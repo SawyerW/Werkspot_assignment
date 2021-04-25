@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+    - name: event_copy
+      columns:
+          - name: event_id
+
+    - name: event_info
+    - name: proposed_events
+    - name: professional_events

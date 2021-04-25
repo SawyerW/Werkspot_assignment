@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: sample_data
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+
+    database:  'postgres'
+    schema: dbt_yue
+
+    tables:
+      - name: event
